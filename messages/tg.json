@@ -1,0 +1,34 @@
+{
+    "HomePage": {
+        "welcome": "Хуш омадед ба Idea reality",
+        "description": "IT-е ки ҳамеша барои шумо кор мекунад",
+        "ostavitZayafku": "Дархост гузоред",
+        "textModal": "Барои муҳокимаи тафсилоти лоиҳаи шумо бо шумо тамос мегирем.",
+        "vveditVasheImya": "Номи худро ворид кунед",
+        "numberPhone": "рақами мобилӣ",
+        "vvediteEmail": "почтаи электронии худро ворид кунед"
+    },
+    "Navigation": {
+        "home": "Асоси",
+        "about": "дар бораи мо"
+    },
+    "AboutPage": {
+        "about_text": "Ширкати мо ҳамеша омода аст, ки дархостҳои мардумро қабул кунад, мо танҳо барои хизматрасонӣ ба мардум кор мекунем. Ҳар гуна барномае, ки дар фикри шумо ҳаст, мо онро таҳия намуда, дар амал татбиқ мекунем!"
+    },
+    "VacancyPagy": {
+        "vacancy_slova": "Ҷойи кор"
+    },
+    "PortfolioPage": {
+        "Portfolio_text": "Портфолио"
+    },
+    "ServicesPage": {
+        "Services:text": "Хизматрасонӣ",
+        "Services:WebDevelopment": "Таҳияи веб",
+        "Services:BackendDevelopment": "Таҳияи Бэкенд"
+    },
+    "Footer_f": {
+        "footer_contact": "Тамос",
+        "footer_nashsakampaniya": "Ширкат",
+        "footer:AllRightsReserved": "© 2026 .Ҳамаи ҳуқуқ маҳфуз аст."
+    }
+}

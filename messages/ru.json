@@ -1,0 +1,34 @@
+{
+    "HomePage": {
+        "welcome": "Добро пожаловать на Idea reality",
+        "description": "IT которые  работает за вас",
+        "ostavitZayafku": "Оставить заявку",
+        "textModal": "Свяжемся с вами для обсуждения деталей вашего проекта.",
+        "vveditVasheImya": "Введите свое имя",
+        "numberPhone": "номер телефона",
+        "vvediteEmail": "введите ваш Email"
+    },
+    "Navigation": {
+        "home": "Главни",
+        "about": "О нас"
+    },
+    "AboutPage": {
+        "about_text": "Наша компания всегда готова принимать запросы от людей, мы работаем исключительно для обслуживания людей. Любое приложение, которое у вас есть в мыслях, мы разработаем его и внедрим на практике!"
+    },
+    "VacancyPagy": {
+        "vacancy_slova": "Вакансии"
+    },
+    "PortfolioPage": {
+        "Portfolio_text": "Портфолио"
+    },
+    "ServicesPage": {
+        "Services:text": "Услуги",
+        "Services:WebDevelopment": "Веб-разработка",
+        "Services:BackendDevelopment": "Бэкенд-разработка"
+    },
+    "Footer_f": {
+        "footer_contact": "Контакты",
+        "footer_nashsakampaniya": "Кампания",
+        "footer:AllRightsReserved": "© 2026 . все права защищены."
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "HomePage": {
+        "welcome": "Welcome to Idea reality",
+        "description": "it which always works for you.",
+        "ostavitZayafku": "Leave a request",
+        "textModal": "We will contact you to discuss your project details.",
+        "vveditVasheImya": "Enter your name",
+        "numberPhone": "phone number",
+        "vvediteEmail": "enter your Email"
+    },
+    "Navigation": {
+        "home": "Home",
+        "about": "About"
+    },
+    "AboutPage": {
+        "about_text": "Our company is always ready to receive requests from people, we work solely to serve people. Any application you have in mind, we will develop it and implement it in practice!"
+    },
+    "PortfolioPage": {
+        "Portfolio_text": "Portfolio"
+    },
+    "ServicesPage": {
+        "Services:text": "Services",
+        "Services:WebDevelopment":"Web development",
+        "Services:BackendDevelopment":"Backend development"
+
+    },
+    "Footer_f": {
+        "footer_contact": "Contact",
+        "footer_nashsakampaniya": "Office",
+        "footer:AllRightsReserved": "© 2026 . All rights reserved."
+    }
+}
