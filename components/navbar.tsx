@@ -73,7 +73,7 @@ const Navbar = ({ locale }: { locale: string }) => {
   const portfol = useTranslations('PortfolioPage');
   const Service = useTranslations('ServicesPage');
 
-   useEffect(() => {
+  useEffect(() => {
     // Проверяем все элементы с ID на странице
     const allElements = document.querySelectorAll('[id]');
     console.log('All elements with IDs:', Array.from(allElements).map(el => el.id));
@@ -92,7 +92,8 @@ const Navbar = ({ locale }: { locale: string }) => {
     }
   };
 
-  const currentLanguage = languages.find(lang => lang.code === locale);
+  // const currentLanguage = languages.find(lang => lang.code === locale);
+  const currentLanguage = languages.find(lang => lang.code === locale) || languages[0];
 
   return (
     <>
@@ -107,8 +108,8 @@ const Navbar = ({ locale }: { locale: string }) => {
           <h2 className={styles.navbar}>Idea reality</h2>
           <div className={styles.textNavigations}>
             <p className={styles.textHome} onClick={() => scrollToSection('home-cection')}>{navigat('home')}</p>
-            <p className={styles.textHome} onClick={()=>scrollToSection('contact-section')} >{Service('Services:text')}</p>
-            <p className={styles.textHome} onClick={()=>scrollToSection('portfolio-section')} >{portfol('Portfolio_text')}</p>
+            <p className={styles.textHome} onClick={() => scrollToSection('contact-section')} >{Service('Services:text')}</p>
+            <p className={styles.textHome} onClick={() => scrollToSection('portfolio-section')} >{portfol('Portfolio_text')}</p>
             <p className={styles.textHome}
               onClick={() => scrollToSection('about-section')}
             >{navigat('about')}</p>
