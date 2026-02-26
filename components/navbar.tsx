@@ -127,7 +127,7 @@ const Navbar = ({ locale }: { locale: string }) => {
             <button className={styles.languageButton}>
               <Image
                 src={currentLanguage?.flag}
-                alt={currentLanguage?.name}
+                alt={currentLanguage?.name ?? 'language'}
                 width={20}
                 height={15}
                 style={{ marginRight: '6px' }}
