@@ -17,6 +17,7 @@
   z-index: 100;
   background-color: white;
   box-shadow: 1px 2px 30px 3px rgba(128, 128, 128, 0.325);
+  box-sizing: border-box;
 }
 
 .logoStyle {
@@ -176,6 +177,11 @@
   animation: typewriter 2s steps(40) 2s forwards,
     blinkCursor 0.8s step-end infinite;
 }
+
+.Bars {
+  display: none;
+}
+
 
 @keyframes typewriter {
   to {
@@ -388,7 +394,7 @@ body {
   }
 
   .languageContainer {
-    margin-left: 150px;
+    margin-left:auto;
   }
 }
 
@@ -400,11 +406,8 @@ body {
   .textNavigations {
     display: none;
   }
-  .nav{
-    width: 100%;
-  }
 
   .languageContainer {
-    margin-left: 150px;
+    margin-left: auto;
   }
 }
