@@ -11,8 +11,10 @@ import { DownOutlined } from '@ant-design/icons';
 import flagRu from '../public/ru.svg';
 import flagEn from '../public/en.svg';
 import flagTg from '../public/tg.svg';
-import flagUz from '../public/uz.svg';
-import Link from "next/link";
+import PhotoDot from '../public/dot.svg'
+import { SettingOutlined } from '@ant-design/icons';
+import { Menu } from 'antd';
+
 
 
 const Navbar = ({ locale }: { locale: string }) => {
@@ -39,6 +41,41 @@ const Navbar = ({ locale }: { locale: string }) => {
     //   flag: flagUz,
     // }
   ];
+
+  const [current, setCurrent] = useState('setting:1');
+
+  const navigat = useTranslations('Navigation');
+  const portfol = useTranslations('PortfolioPage');
+  const Service = useTranslations('ServicesPage');
+
+  const onClick: MenuProps['onClick'] = (e) => {
+    console.log('click ', e);
+    setCurrent(e.key);
+  };
+
+  const dotMenuItems: MenuProps['items'] = [
+    {
+      key: 'home',
+      label: navigat('home'),
+      onClick: () => scrollToSection('home-section')
+    },
+    {
+      key: 'services',
+      label: Service('Services:text'),
+      onClick: () => scrollToSection('services-section')
+    },
+    {
+      key: 'portfolio',
+      label: portfol('Portfolio_text'),
+      onClick: () => scrollToSection('portfolio-section')
+    },
+    {
+      key: 'about',
+      label: navigat('about'),
+      onClick: () => scrollToSection('about-section')
+    }
+  ];
+
 
   const languageMenuItems: MenuProps['items'] = languages
     .filter(lang => lang.code !== locale)
@@ -69,9 +106,7 @@ const Navbar = ({ locale }: { locale: string }) => {
   const router = useRouter();
   const pathname = usePathname();
 
-  const navigat = useTranslations('Navigation');
-  const portfol = useTranslations('PortfolioPage');
-  const Service = useTranslations('ServicesPage');
+
 
   useEffect(() => {
     // Проверяем все элементы с ID на странице
@@ -117,7 +152,7 @@ const Navbar = ({ locale }: { locale: string }) => {
           </div>
         </div>
 
-        <div style={{ marginTop: '8px', cursor: 'pointer' }} className={styles.languageContainer}>
+        <div className={styles.languageContainer}>
           <Dropdown
             menu={{ items: languageMenuItems }}
             trigger={['hover']}
@@ -134,6 +169,20 @@ const Navbar = ({ locale }: { locale: string }) => {
               />
               <span>{currentLanguage?.name}</span>
             </button>
+          </Dropdown>
+          <Dropdown
+            menu={{ items: dotMenuItems }}
+            trigger={['click']}
+            placement="bottomRight"
+          >
+            <Image
+              className={styles.Bars}
+              src={PhotoDot}
+              width={10}
+              height={10}
+              alt="menu"
+              style={{ cursor: 'pointer' }}
+            />
           </Dropdown>
         </div>
 

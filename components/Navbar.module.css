@@ -370,3 +370,32 @@ body {
   font-size: 14px;
   line-height: 1.5;
 }
+
+.languageContainer {
+  margin-top: 8px;
+  cursor: pointer;
+  display: flex;
+  gap: 35px;
+}
+
+.Bars {
+  display: none;
+  display: hidden;
+}
+
+@media(max-width:575px) and (min-width:300px) {
+  .Bars {
+    display: block;
+  }
+
+  .textNavigations {
+    display: none;
+  }
+
+  .languageContainer{
+    margin-left: 150px;
+  }
+
+
+
+}
