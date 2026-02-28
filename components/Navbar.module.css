@@ -383,7 +383,7 @@ body {
   display: hidden;
 }
 
-@media(max-width:768px) and (min-width:481px) {
+@media(min-width:481px) and (max-width:768px) {
   .Bars {
     display: block;
   }
@@ -395,5 +395,18 @@ body {
   .languageContainer {
     margin-left: 150px;
   }
+}
 
+@media(max-width:480px) {
+  .Bars {
+    display: block;
+  }
+
+  .textNavigations {
+    display: none;
+  }
+
+  .languageContainer {
+    margin-left: 150px;
+  }
 }
