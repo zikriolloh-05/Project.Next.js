@@ -383,7 +383,7 @@ body {
   display: hidden;
 }
 
-@media(max-width:481px) and (min-width:768px) {
+@media(max-width:768px) and (min-width:481px) {
   .Bars {
     display: block;
   }
