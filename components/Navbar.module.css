@@ -426,9 +426,7 @@ body {
     font-size: 32px;
     margin-top: 50px;
   }
-  .nav{
-    max-width: 100%;
-  }
+
 }
 
 @media(max-width:480px) {
@@ -466,17 +464,24 @@ body {
     display: none;
   }
 
+  .nav {
+    max-width: 90%;
+  }
+
   .languageContainer {
     margin-left: -300px;
+    margin-trim: fixed;
   }
 }
 
 .Div_ful_portfolio {
-  gap: 30px; /* для мобильных */
+  gap: 30px;
+  /* для мобильных */
 }
 
 @media (min-width: 769px) {
   .Div_ful_portfolio {
-    gap: 210px; /* для десктопа */
+    gap: 210px;
+    /* для десктопа */
   }
 }
