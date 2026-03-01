@@ -57,12 +57,12 @@ const Navbar = ({ locale }: { locale: string }) => {
     {
       key: 'home',
       label: navigat('home'),
-      onClick: () => scrollToSection('home-section')
+      onClick: () => scrollToSection('home-cection')
     },
     {
       key: 'services',
       label: Service('Services:text'),
-      onClick: () => scrollToSection('services-section')
+      onClick: () => scrollToSection('contact-section')
     },
     {
       key: 'portfolio',
