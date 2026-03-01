@@ -45,7 +45,8 @@ const Footer = () => {
                 <div className={styles.footer_display_flex}>
                     <div className={styles.footer_forMedia}>
                         <img src={footerLogo} alt="" />
-                        <h2 className={styles.navbar}>Idea reality</h2>
+                        <h2 className={styles.navbar}>IT Support</h2>
+                        <p>Быстро. Четко. Профессионально</p>
                     </div>
                     <div className={styles.footer_forMedia} style={{ fontSize: '18px', }}>
                         <h2 className={styles.textH2Minasosetyax}>{footer_text('footer_contact')}</h2>

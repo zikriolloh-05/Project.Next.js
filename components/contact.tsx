@@ -29,7 +29,7 @@ const Contact = () => {
                             </div>
                             <div className={styles.divServices_back}>
                                 <h3>{services('Services:WebDevelopment')}</h3>
-                                <p>HTML5, CSS3, JavaScript, React, Next.js, TypeScript, Vue.js, Angular</p>
+                                <p>HTML5, CSS3, JavaScript, React, Next.js, </p>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                             </div>
                             <div className={styles.divServices_back}>
                                 <h3>{services('Services:BackendDevelopment')}</h3>
-                                <p>Node.js Python Java PHP C#/.NET Go</p>
+                                <p> C#/.NET Go</p>
                             </div>
                         </div>
                     </div>

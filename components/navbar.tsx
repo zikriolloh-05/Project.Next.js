@@ -133,14 +133,14 @@ const Navbar = ({ locale }: { locale: string }) => {
   return (
     <>
       <nav className={styles.nav}>
-        <div className={styles.logoStyle}>
+        <div className={styles.logoStyle}> 
           <Image
             width={40}
             height={40}
             src={logo}
             style={{ borderRadius: "30%" }}
             alt="" />
-          <h2 className={styles.navbar}>Idea reality</h2>
+          <h2 className={styles.navbar}> IT Support</h2>
           <div className={styles.textNavigations}>
             <p className={styles.textHome} onClick={() => scrollToSection('home-cection')}>{navigat('home')}</p>
             <p className={styles.textHome} onClick={() => scrollToSection('contact-section')} >{Service('Services:text')}</p>
