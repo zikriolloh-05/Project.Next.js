@@ -434,6 +434,18 @@ body {
     display: block;
   }
 
+  .footer_forMedia {
+    max-width: 35%;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer_display_flex {
+    display: table-caption;
+  }
+
   .about_page,
   .vacancyPage {
     width: 90%;
@@ -465,7 +477,7 @@ body {
   }
 
   .nav {
-    max-width: 90%;
+    max-width: 95%;
   }
 
   .languageContainer {

@@ -43,18 +43,18 @@ const Footer = () => {
         <>
             <footer className={styles.footer}>
                 <div className={styles.footer_display_flex}>
-                    <div>
+                    <div className={styles.footer_forMedia}>
                         <img src={footerLogo} alt="" />
-                        <h2 style={{ fontSize: "35px" }} className={styles.navbar}>Idea reality</h2>
+                        <h2 className={styles.navbar}>Idea reality</h2>
                     </div>
-                    <div style={{ fontSize: '18px', }}>
+                    <div className={styles.footer_forMedia} style={{ fontSize: '18px', }}>
                         <h2 className={styles.textH2Minasosetyax}>{footer_text('footer_contact')}</h2>
                         <p className={styles.FoterMtop}>+992  909 050 409</p>
                         <p className={styles.FoterMtop}> t.me/Zikriolloh_05</p>
                         <p className={styles.FoterMtop}>sharipovzikriolloh28@gmail.com</p>
 
                     </div>
-                    <div style={{ fontSize: '18px' }}>
+                    <div className={styles.footer_forMedia} style={{ fontSize: '18px' }}>
                         <h2 className={styles.textH2Minasosetyax}>{footer_text('footer_nashsakampaniya')}</h2>
                         <p className={styles.FoterMtop} onClick={() => scrollToSection('about-section')}>{navigat('about')}</p>
                         <p className={styles.FoterMtop} onClick={() => scrollToSection('portfolio-section')}>{portfol('Portfolio_text')}</p>
