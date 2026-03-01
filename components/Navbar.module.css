@@ -380,7 +380,7 @@ body {
   margin-top: 8px;
   cursor: pointer;
   display: flex;
-  gap: 35px;
+  gap: 30px;
 }
 
 .divServices {
@@ -398,7 +398,7 @@ body {
   }
 
   .languageContainer {
-    margin-left: auto;
+    margin-left: -100px;
   }
 
   .about_page,
@@ -425,6 +425,9 @@ body {
   .TextSevvices {
     font-size: 32px;
     margin-top: 50px;
+  }
+  .nav{
+    max-width: 100%;
   }
 }
 
@@ -464,7 +467,7 @@ body {
   }
 
   .languageContainer {
-    margin-left: auto;
+    margin-left: -100px;
   }
 }
 
