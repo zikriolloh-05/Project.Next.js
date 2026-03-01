@@ -264,7 +264,7 @@ body {
 .divImagePortfolio {
   width: 40%;
   height: 31vh;
-  background-color: #00bfff28;
+  background-color: white;
   border-radius: 9px;
   place-content: center;
   box-shadow: 1px 1px 20px 10px rgba(128, 128, 128, 0.195);
@@ -430,6 +430,20 @@ body {
     display: block;
   }
 
+  .divImagePortfolio {
+    max-width: 300px;
+  }
+
+  .PortfolioPage {
+    height: auto;
+  }
+
+  .Div_ful_portfolio {
+    flex-direction: column;
+    gap: 30px;
+    max-width: 100%;
+  }
+
   .footer_forMedia {
     max-width: 50%;
   }
@@ -483,10 +497,7 @@ body {
   }
 }
 
-.Div_ful_portfolio {
-  gap: 30px;
-  /* для мобильных */
-}
+
 
 @media (min-width: 769px) {
   .Div_ful_portfolio {
